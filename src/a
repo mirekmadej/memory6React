@@ -1,0 +1,13 @@
+  function Nowagra() {
+    function nowaGra(){
+      lp = 0;
+      const k = karty.slice();
+      k.fill(tyl);
+      setKarty(k);
+    }
+    return(
+      <button className='nowaGra' onClick={nowaGra}>
+        Nowa gra
+      </button>
+    );
+  }
